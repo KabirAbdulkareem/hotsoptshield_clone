@@ -105,13 +105,13 @@ body {
 }
 
 .hero_info > .description {
-    font-size: 16px;
-    line-height: 24px;
-    color: rgb(49, 44, 44);
-    font-style: normal;
-    font-weight: 500;
-    /* border: 1px solid black; */
-    width: 90%;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(49, 44, 44);
+  font-style: normal;
+  font-weight: 500;
+  /* border: 1px solid black; */
+  width: 90%;
 }
 
 .hss_button_hero {
@@ -124,4 +124,53 @@ body {
   text-align: center;
   padding: 15px 29px;
   font-weight: 600;
+}
+
+/* FEATURE SECTION */
+.feature_row_r{
+  flex-direction: row-reverse;
+}
+.feature_row {
+  /* border: 1px solid black; */
+  margin-top: 46px;
+  display: flex;
+  align-items: center;
+}
+
+.feature_row > .feature_image {
+  padding: 15px 0;
+}
+
+.feature_row > .feature_image > img {
+  width: 100%;
+}
+
+.feature_row > .feature_description {
+  padding: 15px 0 15px 115px;
+}
+
+.feature_row > .feature_description.reverse {
+  padding: 15px 115px 15px 0px;
+}
+
+.feature_row > .feature_description > .heading {
+  color: #312c2c;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  margin: 1em 0 0.5em;
+}
+
+.feature_row > .feature_description > .description {
+  margin: 1em 0 0.5em;
+  line-height: 24px;
+}
+
+.feature_row > .feature_description > .sitation {
+  display: flex;
+  margin: 1em 0 0.5em;
+}
+
+.feature_row > .feature_description > .sitation > img {
+  margin-right: 15px;
 }
