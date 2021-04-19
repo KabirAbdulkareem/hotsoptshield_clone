@@ -243,7 +243,43 @@ body {
   margin: 0 5px;
 }
 
+/* CALL TO ACTION SECTION */
+#call_action_section {
+  background: url(./images/buypremium_image5.jpg) no-repeat left top;
+  background-size: cover;
+  height: 375px;
+  padding-top: 30px;
+}
 
+.call_to_action {
+  width: 50%;
+  margin-left: 50%;
+}
+
+.call_to_action > .heading {
+  margin: 26px 0 16px;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.call_to_action > .hss_button.action_button {
+  color: #fff;
+  border: none;
+  background: #1a89f8;
+  font-weight: 600;
+  padding: 15px 26px;
+  border-radius: 12px;
+  margin: 25px 0px 21px;
+  display: inline-block;
+}
+
+.call_to_action > .available {
+  margin: 21px 0 8px;
+  color: #b3b3b3;
+  line-height: 24px;
+}
 
 /* Icons */
 
