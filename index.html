@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7ac0e8d01c.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
@@ -81,7 +85,9 @@
         </div>
         <div class="feature_row feature_row_r">
           <!-- feature image to the left -->
-          <div class="feature_image"><img src="./images/image-2@2x.jpg" alt="feature image" /></div>
+          <div class="feature_image">
+            <img src="./images/image-2@2x.jpg" alt="feature image" />
+          </div>
           <!-- feature description to the right -->
           <div class="feature_description reverse">
             <p class="heading">
@@ -104,7 +110,9 @@
         </div>
         <div class="feature_row">
           <!-- feature image to the left -->
-          <div class="feature_image"><img src="./images/image-3@2x.jpg" alt="feature image" /></div>
+          <div class="feature_image">
+            <img src="./images/image-3@2x.jpg" alt="feature image" />
+          </div>
           <!-- feature description to the right -->
           <div class="feature_description">
             <p class="heading">
@@ -127,7 +135,9 @@
         </div>
         <div class="feature_row feature_row_r">
           <!-- feature image to the left -->
-          <div class="feature_image"><img src="./images/image-4@2x.jpg" alt="feature image" /></div>
+          <div class="feature_image">
+            <img src="./images/image-4@2x.jpg" alt="feature image" />
+          </div>
           <!-- feature description to the right -->
           <div class="feature_description reverse">
             <p class="heading">
@@ -163,28 +173,84 @@
     <!-- testimonial section -->
     <div id="testimonial_section">
       <div class="container">
-        <p class="heading"></p>
-        <div class="testimonial_row">
-          <div class="testimonial_card">
-            <div class="ratings"></div>
-            <p class="heading">One of the most trusted and secure VPNs</p>
-            <div class="description">
-              Mask your IP address, browse anonymously, establish an encrypted
-              connection, and secure public Wi-Fi hotspots.
+        <div class="testimonial">
+          <!-- Testimonial section heading -->
+          <p class="heading">Trusted by millions for privacy and security</p>
+
+          <!-- Testimonial Cards Row -->
+          <div class="testimonial_cards_row">
+            <!-- Testimonial card -->
+            <div class="testimonial_card">
+              <!-- rating -->
+              <div class="rating">
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="heading">One of the most trusted and secure VPNs</p>
+              <div class="description">
+                Mask your IP address, browse anonymously, establish an encrypted
+                connection, and secure public Wi-Fi hotspots.
+              </div>
+              <div class="author">— Abir M.</div>
             </div>
-            <div class="author"></div>
+            <div class="testimonial_card">
+              <!-- rating -->
+              <div class="rating">
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="heading">Always dependable</p>
+              <div class="description">
+                I like how user friendly it is, and how it works silently in the
+                background, without slowing down my laptop.
+              </div>
+              <div class="author">— Linda G.</div>
+            </div>
+            <div class="testimonial_card">
+              <!-- rating -->
+              <div class="rating">
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+                <span class="rating-star"><i class="fas fa-star"></i></span>
+              </div>
+              <p class="heading">Essential for peace of mind</p>
+              <div class="description">
+                With all the online security concerns today, this is one app
+                everyone should have on every device connected to the internet!
+              </div>
+              <div class="author">— Rick B.</div>
+            </div>
           </div>
-          <div class="testimonial_card">
-            <div class="ratings"></div>
-            <p class="heading"></p>
-            <div class="description"></div>
-            <div class="author"></div>
-          </div>
-          <div class="testimonial_card">
-            <div class="ratings"></div>
-            <p class="heading"></p>
-            <div class="description"></div>
-            <div class="author"></div>
+
+          <!-- App stores ratings -->
+          <div class="store_rating">
+            <p class ="rating">
+              App Store
+              <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i
+              ></span>
+              112k
+            </p>
+            <p class ="rating">
+              Google Play
+              <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i
+              ></span>
+              1.4M
+            </p>
           </div>
         </div>
       </div>
@@ -193,10 +259,16 @@
     <!-- call to action section -->
     <div id="call_action_section">
       <div class="container">
-        <div class="action_info">
+        <div class="call_to_action">
           <div class="heading">Ready to get Hotspot Shield?</div>
-          <div class="action_button">Get Hotspot Sheild</div>
-          <div class="available">Available on:</div>
+          <a href="#" class="hss_button action_button">Get Hotspot Sheild</a href="#">
+          <p class="available">
+            Available on:
+            <span class="icon-window"><i class="fab fa-windows"></i></span>
+            <i class="fab fa-ubuntu"></i> <i class="fab fa-apple"></i>
+            <i class="fab fa-android"></i> <i class="fab fa-chrome"></i>
+            <i class="fas fa-tv"></i>
+          </p>
         </div>
       </div>
     </div>
@@ -207,97 +279,83 @@
         <div class="top_footer">
           <div class="list_row">
             <div class="footer_column">
-              <div class="heading"></div>
+              <div class="heading">Products</div>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Free VPN Download</li>
+                <li>VPN for Windows PC</li>
+                <li>VPN for Mac</li>
+                <li>VPN for Android</li>
+                <li>VPN for Chrome</li>
+                <li>VPN for Router</li>
+                <li>VPN for TV</li>
+                <li>VPN for Linux</li>
               </ul>
             </div>
             <div class="footer_column">
-              <div class="heading"></div>
+              <div class="heading">VPN Info</div>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>VPN Blog</li>
+                <li>What is a VPN</li>
+                <li>Netflix VPN</li>
+                <li>VPN for Privacy</li>
+                <li>VPN for Streaming</li>
+                <li>VPN for Gaming</li>
+                <li>VPN Resources</li>
+                <li>VPN Benefits</li>
               </ul>
             </div>
             <div class="footer_column">
-              <div class="heading"></div>
+              <div class="heading">Other Resources</div>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>What is my IP</li>
+                <li>How IP works</li>
+                <li>How Hackers Use IP</li>
+                <li>Change My IP</li>
+                <li>Hide My IP</li>
+                <li>Glossary</li>
+                <li>Free Proxy</li>
               </ul>
             </div>
             <div class="footer_column">
-              <div class="heading"></div>
+              <div class="heading">About Hotspot Shield</div>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>VPN Plans & Pricing</li>
+                <li>Fastest VPN</li>
+                <li>Virtual Locations</li>
+                <li>Awards & Reviews</li>
+                <li>Site Map</li>
               </ul>
             </div>
             <div class="footer_column">
-              <div class="heading"></div>
+              <div class="heading">Help</div>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Support Center</li>
+                <li>Contact Us</li>
+                <li>Affiliates</li>
+                <li>Business VPN</li>
               </ul>
             </div>
             <div class="footer_column">
-              <div class="heading"></div>
+              <div class="heading">More from Aura</div>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Aura</li>
+                <li>Aura Products</li>
+                <li>Aura News</li>
+                <li>Aura Careers</li>
+                <li>Do Not Sell My Info</li>
               </ul>
             </div>
           </div>
           <div class="footer_social">
-            <ul>
+            <!-- <ul>
               <li>facebook</li>
               <li>twitter</li>
               <li>youtube</li>
               <li>instagram</li>
-            </ul>
+            </ul> -->
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i> <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
           </div>
         </div>
         <div class="below_footer">
