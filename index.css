@@ -287,3 +287,38 @@ body {
   font-size: 16px;
   color: rgb(255, 156, 154);
 }
+
+/* Media Querry */
+
+@media screen and (max-width: 320px) {
+  .container.menu_wrapper {
+    padding: 0;
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .hero_wrapper {
+    padding: 0;
+  }
+
+  .hero_info {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 20em;
+  }
+
+  .hero_info > .hero_title {
+    text-align: center;
+  }
+
+  .hero_info > .description {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}
+
+/* tablet view */
