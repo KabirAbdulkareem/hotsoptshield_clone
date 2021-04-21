@@ -118,6 +118,22 @@ img {
   width: 65%;
 }
 
+/* Learn How To Section */
+
+#howto_section {
+  background: url(./images/hp-animation.jpg) no-repeat center;
+  background-size: cover;
+  background-color: red;
+  height: 630px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#howto_section .heading {
+  text-align: center;
+  margin-top: 40px;
+}
+
 /* MEDIA QUERY */
 @media screen and (min-width: 1171px) {
   /* UTIL */
