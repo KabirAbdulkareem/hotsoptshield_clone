@@ -22,6 +22,10 @@ h6 {
   padding: 0;
 }
 
+.fa-star {
+  color: #ff9c9a;
+}
+
 p {
   color: #707070;
   margin: 1em 0 0.5em;
@@ -134,9 +138,20 @@ img {
   margin-top: 40px;
 }
 
-
-
 /* Testimonial Section */
+
+.testimonial .heading {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #312c2c;
+  text-align: center;
+}
+
+.testimonial_cards_row {
+  padding: 15px 0;
+}
+
 .testimonial_card {
   border: 1px solid #dfdfdf;
   border-radius: 15px;
@@ -144,8 +159,13 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 18px;
 }
 
+.testimonial_card .description {
+  text-align: center;
+  margin-bottom: 22px;
+}
 
 /* MEDIA QUERY */
 @media screen and (min-width: 1171px) {
