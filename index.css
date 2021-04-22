@@ -167,6 +167,15 @@ img {
   margin-bottom: 22px;
 }
 
+#testimonial_section .testimonial {
+  padding: 15px 0;
+}
+
+#testimonial_section .store_rating {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
 /* MEDIA QUERY */
 @media screen and (min-width: 1171px) {
   /* UTIL */
