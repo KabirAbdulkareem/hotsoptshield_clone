@@ -91,6 +91,21 @@ img {
   margin-bottom: 2rem;
 }
 
+.hero_image_small {
+  background: url(./images/hphero-image-mobile.jpg) no-repeat;
+  height: 190px;
+}
+
+#hero_section .store_rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero_section .store_rating p.rating.google_play {
+  display: none;
+}
+
 /* FEATURE SECTION */
 .feature_description {
   padding: 2rem 2rem 1.4rem;
@@ -176,34 +191,3 @@ img {
   padding-bottom: 16px;
 }
 
-/* MEDIA QUERY */
-@media screen and (min-width: 1171px) {
-  /* UTIL */
-  .container {
-    margin: 0 30px;
-    padding: 31px 30px;
-  }
-
-  .bugger {
-    display: none;
-  }
-  .menu {
-    display: block;
-  }
-
-  .menu a {
-    font-size: 14px;
-    line-height: 1.73;
-    color: #312c2c;
-    padding-right: 24px;
-    text-decoration: none;
-  }
-
-  .menu .hss_button {
-    border: 1px solid black;
-    text-decoration: none;
-    color: black;
-  }
-
-  /* FEATURE SECTION */
-}
