@@ -209,3 +209,22 @@ img {
 .call_to_action > .heading {
   color: white;
 }
+
+
+/* Footer section */
+
+div#footer_section {
+  background: #101010;
+  color: white;
+}
+
+.footer_column {
+  padding-top: 8px;
+}
+
+.footer_column ul {
+  list-style-type: none;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 8px;
+}
