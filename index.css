@@ -192,3 +192,20 @@ img {
 }
 
 /* Call to action section */
+
+#call_action_section {
+  background: url(images/mwimage-dark-blue.jpg) no-repeat;
+  padding-bottom: 300px;
+}
+
+#call_action_section .call_to_action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.call_to_action > .heading {
+  color: white;
+}
