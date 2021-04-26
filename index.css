@@ -94,6 +94,7 @@ img {
 .hero_image_small {
   background: url(./images/hphero-image-mobile.jpg) no-repeat;
   height: 190px;
+  background-size: contain;
 }
 
 #hero_section .store_rating {
